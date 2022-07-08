@@ -1,7 +1,12 @@
-// Hide player names in killfeed with minmode 1
-//#base "../alternatives/icon_only_killfeed_minmode.res"
+//2 (Transparent Viewmodel)
+#base "../customizations/enabled/transparent_viewmodels.res"
+//1 (Hide player names in killfeed with minmode 1)
+#base "../customizations/enabled/icon_only_killfeed_minmode.res"
 
-// Default HudLayout.res include
+
+//enabled by default
+
+//(Default HudLayout.res include)
 #base "../default_hudfiles/hudlayout.res"
 
 "Resource/HudLayout.res"

@@ -1,11 +1,14 @@
-//#base "../../options/reloadscheme_button.res"
+//dev only
+#base "../../customizations/enabled/reloadscheme_button.res"
 
-// Class selection buttons at the bottom of backpack
-// Comment out when not using widescreen resolutions
-#base "../../alternatives/classloadout_buttons.res"
 
-#base "../../default_hudfiles/resource/ui/CharInfoLoadoutSubPanel.res"
+//enabled by default
+
+// (Class selection buttons at the bottom of backpack)
+// (*remove when not using widescreen resolutions*)
+#base "../../customizations/enabled/classloadout_buttons.res"
 // Inventory Class selection | Backpack/Crafting/Catalog/Trading
+#base "../../default_hudfiles/resource/ui/CharInfoLoadoutSubPanel.res"
 
 "Resource/UI/CharInfoLoadoutSubPanel.res" {
 	"CharInfoLoadoutSubPanel" {

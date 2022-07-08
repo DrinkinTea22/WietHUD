@@ -1,6 +1,10 @@
 // WietHUD logo for in main menu
 "Resource/UI/MainMenuOverride.res"
 {
+	MainMenuOverride
+	{
+		//make this work
+	}
 	"WietHUD_logo"
 	{
 		"ControlName"	"EditablePanel"

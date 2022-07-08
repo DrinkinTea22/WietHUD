@@ -1,6 +1,10 @@
-#base "../../../../../alternatives/storepanel_widescreen.res"
+//1 (wide resolution)
+#base "../../../../../customizations/enabled/storepanel_widescreen.res"
 
-// Store - Borders + Panels
+
+//enabled by default
+
+//(Store - Borders + Panels)
 #base "../../../../../default_hudfiles/resource/ui/econ/store/v2/storepanel.res"
 
 "Resource/UI/StorePanel.res"

@@ -1,5 +1,13 @@
-//#base "../../alternatives/big_health_cross.res"
-#base "../../alternatives/big_health_numbers.res"
+//1 (Bigger Health Cross)
+#base "../../customizations/enabled/big_health_cross.res"
+
+
+//enabled by default
+
+//(#base call from big_health_cross.res)
+#base "../../customizations/enabled/big_health_numbers.res"
+
+//(Player Health and Status)
 #base "../../default_hudfiles/resource/ui/hudplayerhealth.res"
 
 "Resource/UI/HudPlayerHealth.res"

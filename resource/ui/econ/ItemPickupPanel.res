@@ -1,7 +1,13 @@
-//#base "../../../options/reloadscheme_button.res"
-#base "../../../alternatives/itempickup_widescreen.res"
+//dev only
+#base "../../../customizations/enabled/reloadscheme_button.res"
+
+
+//enabled by default
+
+// (wide resolution)
+#base "../../../customizations/enabled/itempickup_widescreen.res"
+// (New Item crafted/found/traded/bought)
 #base "../../../default_hudfiles/resource/ui/econ/itempickuppanel.res"
-// New Item crafted/found/traded/bought
 
 "Resource/UI/ItemPickupPanel.res"
 {

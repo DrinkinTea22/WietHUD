@@ -1,5 +1,9 @@
 "Resource/Console_Button.res"
 {
+	MainMenuOverride
+	{
+		//make this work
+	}
 	"SettingsButton" // Settings
 	{
 		"border_default"	"MainMenuSubButtonBorder"

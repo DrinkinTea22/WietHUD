@@ -18,21 +18,17 @@ The contents of the hud folder should look similar to the following:
 tf/
 └── custom/
     └── WietHUD
-        ├── alternatives/
         ├── cfg/
-        ├── crosshairs/
-        ├── default_hudfiles/
+        ├── customizations/
+        └── default_hudfiles/
             ├── resource/
             └── hudlayout.res
         ├── HLExtract/
         ├── materials/
         ├── resource/
         ├── scripts/
-        ├── themes/
         └── extract_base_hudfiles.bat
 ```
-
-**DO NOT** remove the *alternatives* folder from the WietHUD directory, as this contains files that are included in essential hudfiles. These files are used for the Main Menu, Loadout, Inventory/Backpack, Player Health and are used to define elements for different resolutions/aspect ratios.
 
 Updating WietHUD
 ----------------
@@ -53,29 +49,37 @@ Technical explanation of HUD setup
 ## Useful settings/console variables for any HUD
 Add `exec wiethud_tweaks` or execute the config file once to set up some console variables which should improve HUD experience (work for any HUD)
 
-Customization
+Customizations
 =================
-### Themes
-`ClientScheme.res` offers the possibility to include separate files for fonts & themes (re)defining colors used throughout the hud, besides the #base setup to allow easy for updating.
+### Themes and Aspect Ratios
+```
+tf/
+└── custom/
+    └── WietHUD
+        └── customizations/
+            ├── enabled/
+            ├── optional/
+            └── themes/
+```
+`enabled` folder will apply changes for the files dropped within it, aswell as let the user know which files are enabled by default.</n>
+`optional` folder includes advanced options (mostly for developers) but that can also be applied by regular users.</n>
+`themes` folder offers the possibility to include separate files for themes (re)defining colors used throughout the hud, besides the #base setup to allow easy for updating.</n>
 
-Currently available themes are: _Red, Orange, Pink, Purple, Blue, Light Blue, Gray, Lime_ & color are taken from the [Google Palette](http://www.google.com/design/spec/style/color.html#color-color-palette)
+**Currently available themes are: _Red, Orange, Pink, Purple, Blue, Light Blue, Gray, Lime_ & color are taken from the [Google Palette](http://www.google.com/design/spec/style/color.html#color-color-palette)**
 
 ### 4:3 & 5:4 Aspect Ratio support
-Widescreen is supported by default with #base include in the following HUD elements:
-* Comment or uncomment lines by adding or removing `//` before the *#base* include line of the self explanatory filenames containing _widescreen.
+Widescreen is supported by default, the user must add or remove files from/to the "enabled" folder, every file is self explanatory containing _widescreen or other suffixes.</n>
 
-| HUD Section | File |
-|:-:|:-:|
-| Main Menu | resource/ui/MainMenuOverride.res |
-| Backpack | resource/ui/econ/BackpackPanel.res |
-| Class Loadout Buttons | resource/ui/CharinfoLoadoutSubpanel.res |
-| Loadout Screens | resource/ui/ClassSelection.res |
-| Item Received | resource/ui/econ/ItemPickupPanel.res |
-| Item Selection | resource/ui/ItemSelectionPanel.res |
-| Store Page Buttons | resource/ui/econ/v2/StorePanel.res |
+**must remove this out from "enabled/" if you're not using a widescreen resolution!**</n>
 
-### Main Menu Buttons
-Custom main menu buttons can be disabled by commenting/removing the first lines in `MainMenuOverride.res` and `GameMenu.res`
+| Enabled folder |
+|:-:|
+| backpack_widescreen |
+| classloadout_buttons |
+| itempickup_widescreen |
+| itemselection_widescreen |
+| loadout_widescreen |
+| storepanel_widescreen |
 
 ### StatusSpec
 StatusSpec Medigun Panels ([Download](https://github.com/Wiethoofd/StatusSpec-HUD) | [Screenshot](http://wiethoofd.info/hudscreenshots/ingame/2%20Spectator%20Modes%20+%20Highlander%20&%206v6%20&%20MvM.jpg))

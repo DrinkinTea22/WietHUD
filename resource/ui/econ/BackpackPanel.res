@@ -1,12 +1,23 @@
-//#base "../../../options/reloadscheme_button.res"
-#base "../../../alternatives/backpack_widescreen.res"
-//#base "../../../alternatives/backpack_1610.res"
-#base "../../../alternatives/backpack_54.res"
-//#base "../../../alternatives/backpack_43.res"
+//dev only
+#base "../../../customizations/enabled/reloadscheme_button.res"
 
-#base "../../../alternatives/backpack_buttons.res"
+//3 (16:10 resolution)
+#base "../../../customizations/enabled/backpack_1610.res"
 
-// Backpack/Inventory
+//2 (5:4 resolution)
+#base "../../../customizations/enabled/backpack_54.res"
+
+//1 (4:3 resolution)
+#base "../../../customizations/enabled/backpack_43.res"
+
+
+//enabled by default
+
+//(wide resolution)
+#base "../../../customizations/enabled/backpack_widescreen.res"
+//(Backpack buttons)
+#base "../../../customizations/enabled/backpack_buttons.res"
+//Backpack/Inventory
 #base "../../../default_hudfiles/resource/ui/econ/backpackpanel.res"
 
 "Resource/UI/FullLoadoutPanel.res"

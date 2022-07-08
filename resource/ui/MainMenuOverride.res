@@ -1,12 +1,20 @@
-// WietHUD logo (comment this out & mainmenu_hudlogo_buttonaction.res in ui/GameMenu.res to hide the logo)
-#base "../../options/mainmenu_hudlogo.res"
+//3 (mainmenu custom buttons, toggle by adding mainmenu_custom_buttonaction.res)
+//#base "../../customizations/enabled/mainmenu_custom_buttons.res"	hud file no longer needed.
+//2 (wide screen)
+//#base "../../customizations/enabled/mainmenu_widescreen.res"		hud file no longer needed.
+//1 (Reload Menu button)
+#base "../../customizations/enabled/reloadmenu_button.res"
 
-// Optional Buttons
-#base "../../options/console_button.res"
-//#base "../../options/reloadmenu_button.res"
+
+//enabled by default
+
+//(WietHUD logo (comment this out & mainmenu_hudlogo_buttonaction.res in ui/GameMenu.res to hide the logo))
+#base "../../customizations/enabled/mainmenu_hudlogo.res"
+//(Console button)
+#base "../../customizations/enabled/Console_button.res"
 
 // Main Menu
-// - Change the value of mat_antialias to see changes made without restarting TF2
+//(Change the value of mat_antialias to see changes made without restarting TF2)
 #base "../../default_hudfiles/resource/ui/MainMenuOverride.res"
 
 "Resource/UI/MainMenuOverride.res"

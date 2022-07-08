@@ -1,6 +1,11 @@
-//#base "../../options/reloadscheme_button.res"
+//dev only
+#base "../../customizations/enabled/reloadscheme_button.res"
+
+
+//enabled by default
+
+//(Item Craft menu)
 #base "../../default_hudfiles/Resource/UI/CraftingPanel.res"
-// Item Craft menu
 
 "Resource/UI/CraftingPanel.res"
 {

@@ -1,6 +1,11 @@
-//#base "../../options/reloadscheme_button.res"
+//dev only
+#base "../../customizations/enabled/reloadscheme_button.res"
+
+
+//enabled by default
+
+//(Fabricators & Chemistry Sets)
 #base "../../default_hudfiles/resource/ui/dynamicrecipepanel.res"
-// Fabricators & Chemistry Sets
 
 "Resource/UI/DynamicRecipe.res" {
 	"dynamic_recipe_panel" {

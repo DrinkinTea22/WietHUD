@@ -45,10 +45,10 @@
 		"OnlyInGame"	"1"
 	}
 
-	"ConsoleButton"
-	{
-		"label"		""
-		"command"	"engine toggleconsole"
-		"tooltip"	"Toggle Console"
-	}
+	//"ConsoleButton"
+	//{
+	//	"label"		""
+	//	"command"	"engine toggleconsole"
+	//	"tooltip"	"Toggle Console"
+	//}
 }

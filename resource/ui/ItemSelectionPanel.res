@@ -1,6 +1,14 @@
-#base "../../options/reloadscheme_button.res"
-#base "../../alternatives/itemselection_widescreen.res"
-#base "../../alternatives/itemselection_buttons.res"
+//dev only
+#base "../../customizations/enabled/reloadscheme_button.res"
+
+//2 (wide resolution)
+#base "../../customizations/enabled/itemselection_widescreen.res"
+
+//1 (Backpack buttons)
+#base "../../customizations/enabled/itemselection_buttons.res"
+
+
+//enabled by default
 
 // Select item to equip or use in crafting
 #base "../../default_hudfiles/resource/ui/itemselectionpanel.res"

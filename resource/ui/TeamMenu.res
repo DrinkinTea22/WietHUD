@@ -1,4 +1,5 @@
-//#base "../../options/reloadscheme_button.res"
+//dev only
+#base "../../customizations/enabled/reloadscheme_button.res"
 
 "Resource/UI/TeamMenu.res"
 {

@@ -1,10 +1,20 @@
-#base "../../options/reloadscheme_button.res"
-//#base "../../alternatives/loadout_verywidescreen.res"
-#base "../../alternatives/loadout_widescreen.res"
-//#base "../../alternatives/loadout_54.res"
-#base "../../alternatives/loadout_buttons.res"
+//dev only
+#base "../../customizations/enabled/reloadscheme_button.res"
 
-// Class Loadout Screen
+//2 (very wide resolution)
+#base "../../customizations/enabled/loadout_verywidescreen.res"
+
+//1 (5:4 resolution)
+#base "../../customizations/enabled/loadout_54.res"
+
+
+//enabled by default
+
+//(wide resolution)
+#base "../../customizations/enabled/loadout_widescreen.res"
+//(Loadout buttons)
+#base "../../customizations/enabled/loadout_buttons.res"
+// (Class Loadout Screen)
 #base "../../default_hudfiles/resource/ui/ClassLoadoutPanel.res"
 
 "Resource/UI/FullLoadoutPanel.res"

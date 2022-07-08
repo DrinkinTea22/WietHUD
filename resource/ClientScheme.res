@@ -1,28 +1,35 @@
-#base "../themes/google_palette_colors.res"
+//enabled by default
+#base "../customizations/enabled/google_palette_colors.res"		//(9)
 
 // Item Backgrounds
-#base "../alternatives/solid_item_backgrounds.res"
-#base "../alternatives/solid_skin_backgrounds.res"
+#base "../customizations/enabled/solid_item_backgrounds.res"	//(2)
+#base "../customizations/enabled/solid_skin_backgrounds.res"	//(1)
 
 // Themes
-//#base "../themes/colorscheme_blue.res"
-//#base "../themes/colorscheme_green.res"
-//#base "../themes/colorscheme_lime.res"
-//#base "../themes/colorscheme_lightblue.res"
-//#base "../themes/colorscheme_orange.res"
-//#base "../themes/colorscheme_pink.res"
-//#base "../themes/colorscheme_purple.res"
-//#base "../themes/colorscheme_red.res"
-#base "../themes/colorscheme_default.res" // Default color fallback if no theme is uncommented
+#base "../customizations/enabled/colorscheme_blue.res"			//(8)
+#base "../customizations/enabled/colorscheme_green.res"			//(7)
+#base "../customizations/enabled/colorscheme_lime.res"			//(6)
+#base "../customizations/enabled/colorscheme_lightblue.res"		//(5)
+#base "../customizations/enabled/colorscheme_orange.res"		//(4)
+#base "../customizations/enabled/colorscheme_pink.res"			//(3)
+#base "../customizations/enabled/colorscheme_purple.res"		//(2)
+#base "../customizations/enabled/colorscheme_red.res"			//(1)
 
-// Fonts
-//#base "../alternatives/notohud_fonts.res"
+//1 (noto Fonts)
+#base "../customizations/enabled/notohud_fonts.res"
+
+
+//enabled by default
+
+//(Default color fallback if no theme is added)
+#base "../customizations/enabled/colorscheme_default.res"
+
 #base "CrosshairFonts.res"
 #base "default_fonts_blur.res"
 #base "default_fonts_outline.res"
 #base "default_fonts_shadow.res"
 
-// Include default ClientScheme.res
+// (Include default ClientScheme.res)
 #base "../default_hudfiles/resource/clientscheme.res"
 
 // Customization of clientscheme.res

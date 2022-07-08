@@ -1,5 +1,6 @@
-//#base "../../options/reloadscheme_button.res"
-// Tabs & Back button for backpack/econ related panels
+//dev only
+//(Tabs & Back button for backpack/econ related panels)
+#base "../../customizations/enabled/reloadscheme_button.res"
 
 "Resource/UI/CharInfoPanel.res"
 {

@@ -1,6 +1,8 @@
-//#base "../../../options/reloadscheme_button.res"
-// Weapon/Paint Kit Inspection Panel
-// Embedded in ConfirmApplyPaintKitDialog for War Paints
+//dev only
+#base "../../../customizations/enabled/reloadscheme_button.res"
+
+//(Weapon/Paint Kit Inspection Panel)
+//(Embedded in ConfirmApplyPaintKitDialog for War Paints)
 
 "Resource/UI/econ/InspectionPanel.res"
 {
