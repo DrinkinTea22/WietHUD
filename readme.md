@@ -61,9 +61,9 @@ tf/
             ├── optional/
             └── themes/
 ```
-`enabled` folder will apply changes for the files dropped within it, aswell as let the user know which files are enabled by default.</n>
-`optional` folder includes advanced options (mostly for developers) but that can also be applied by regular users.</n>
-`themes` folder offers the possibility to include separate files for themes (re)defining colors used throughout the hud, besides the #base setup to allow easy for updating.</n>
+* `enabled` folder will apply changes for the files dropped within it, aswell as let the user know which files are enabled by default.
+* `optional` folder includes advanced options (mostly for developers) but that can also be applied by regular users.
+* `themes` folder offers the possibility to include separate files for themes (re)defining colors used throughout the hud, besides the #base setup to allow easy for updating.
 
 **Currently available themes are: _Red, Orange, Pink, Purple, Blue, Light Blue, Gray, Lime_ & color are taken from the [Google Palette](http://www.google.com/design/spec/style/color.html#color-color-palette)**
 
