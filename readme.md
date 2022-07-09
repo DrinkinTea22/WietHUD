@@ -81,6 +81,13 @@ Widescreen is supported by default, the user must add or remove files from/to th
 | loadout_widescreen | x |
 | storepanel_widescreen | x |
 
+### Quality of life improvements:
+* notofonts affect specific fonts
+* disguisestatuspanel weapon name matches background's width
+* fixed console spam **Failed to load sound "vo\null.wav"**
+* fixed console spam **--- Missing Vgui material vgui/..\vgui\maps\menu_thumb_missing**
+* fixed console spam **HudItemEffectMeter_Action.res missing**
+
 ### StatusSpec
 StatusSpec Medigun Panels ([Download](https://github.com/Wiethoofd/StatusSpec-HUD) | [Screenshot](http://wiethoofd.info/hudscreenshots/ingame/2%20Spectator%20Modes%20+%20Highlander%20&%206v6%20&%20MvM.jpg))
 
