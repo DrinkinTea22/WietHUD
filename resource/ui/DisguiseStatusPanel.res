@@ -99,7 +99,7 @@
 		"xpos"			"54"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"140"
+		"wide"			"200"	//"140"
 		"tall"			"13"
 		"labelText"		"%weaponname%"
 		"textAlignment"		"Left"
