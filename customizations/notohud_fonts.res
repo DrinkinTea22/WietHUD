@@ -564,19 +564,45 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"HudFontGiantBoldOutline"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+		"HudFontGiantBoldOutlineShadow"
+		{
+			"1"
+			{
+				"name"		"Open Sans Bold"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"1"
+				"dropshadow"	"1"
+			}
+		}
 	}
 	
-	CustomFontFiles
-	{	
-		"8" // Open Sans Bold
-		{		
-			"font" "resource/OpenSansBold.ttf"
-			"name" "Open Sans Bold"
-		}
-		"9" // Open Sans Regular
-		{		
-			"font" "resource/OpenSansRegular.ttf"
-			"name" "Open Sans"
-		}
-	}
+	//moved to clientscheme, toggle by dropping inside "enabled/"
+	//CustomFontFiles
+	//{	
+	//	"8" // Open Sans Bold
+	//	{		
+	//		"font" "../resource/OpenSansBold.ttf"
+	//		"name" "Open Sans Bold"
+	//	}
+	//	"9" // Open Sans Regular
+	//	{		
+	//		"font" "../resource/OpenSansRegular.ttf"
+	//		"name" "Open Sans"
+	//	}
+	//}
 }
