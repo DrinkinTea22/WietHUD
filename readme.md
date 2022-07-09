@@ -72,12 +72,12 @@ Widescreen is supported by default, the user must add or remove files from/to th
 
 **must remove this out from "enabled/" if you're not using a widescreen resolution!**</n>
 
-| Enabled folder |
-|:-:|
-| backpack_widescreen |
-| classloadout_buttons |
-| itempickup_widescreen |
-| itemselection_widescreen |
+| Enabled folder | | DO not remove/delete this ones |
+|:-:||:-:|
+| backpack_widescreen | | big_health_numbers |
+| classloadout_buttons | | colorscheme_default |
+| itempickup_widescreen | | google_palette_colors |
+| itemselection_widescreen | | mainmenu_hudlogo_buttonaction |
 | loadout_widescreen |
 | storepanel_widescreen |
 
