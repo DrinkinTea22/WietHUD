@@ -72,14 +72,14 @@ Widescreen is supported by default, the user must add or remove files from/to th
 
 **must remove this out from "enabled/" if you're not using a widescreen resolution!**</n>
 
-| Enabled folder | | DO not remove/delete this ones |
+| Enabled folder | DO not remove/delete this ones |
 |:-:||:-:|
-| backpack_widescreen | | big_health_numbers |
-| classloadout_buttons | | colorscheme_default |
-| itempickup_widescreen | | google_palette_colors |
-| itemselection_widescreen | | mainmenu_hudlogo_buttonaction |
-| loadout_widescreen |
-| storepanel_widescreen |
+| backpack_widescreen | big_health_numbers |
+| classloadout_buttons | colorscheme_default |
+| itempickup_widescreen | google_palette_colors |
+| itemselection_widescreen | mainmenu_hudlogo_buttonaction |
+| loadout_widescreen | x |
+| storepanel_widescreen | x |
 
 ### StatusSpec
 StatusSpec Medigun Panels ([Download](https://github.com/Wiethoofd/StatusSpec-HUD) | [Screenshot](http://wiethoofd.info/hudscreenshots/ingame/2%20Spectator%20Modes%20+%20Highlander%20&%206v6%20&%20MvM.jpg))
