@@ -590,19 +590,18 @@ Scheme
 			}
 		}
 	}
-	
-	//moved to clientscheme, toggle by dropping inside "enabled/"
-	//CustomFontFiles
-	//{	
-	//	"8" // Open Sans Bold
-	//	{		
-	//		"font" "../resource/OpenSansBold.ttf"
-	//		"name" "Open Sans Bold"
-	//	}
-	//	"9" // Open Sans Regular
-	//	{		
-	//		"font" "../resource/OpenSansRegular.ttf"
-	//		"name" "Open Sans"
-	//	}
-	//}
+
+	CustomFontFiles
+	{	
+		"102" // Open Sans Bold
+		{		
+			"font" "resource/OpenSansBold.ttf"
+			"name" "Open Sans Bold"
+		}
+		"103" // Open Sans Regular
+		{		
+			"font" "resource/OpenSansRegular.ttf"
+			"name" "Open Sans"
+		}
+	}
 }

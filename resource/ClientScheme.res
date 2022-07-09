@@ -934,16 +934,5 @@ Scheme
 	{
 		"7" "resource/ocra.ttf" // Contracts Font
 		"8" "resource/blocks.ttf" // Block Font
-
-		"102" // Open Sans Bold
-		{		
-			"font" "resource/OpenSansBold.ttf"
-			"name" "Open Sans Bold"
-		}
-		"103" // Open Sans Regular
-		{		
-			"font" "resource/OpenSansRegular.ttf"
-			"name" "Open Sans"
-		}
 	}
 }
