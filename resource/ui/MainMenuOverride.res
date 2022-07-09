@@ -19,6 +19,28 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
+	"PreloadPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PreloadPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"MenuThumbMissing"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"MenuThumbMissing"
+			"xpos"			"9999"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../vgui/maps/menu_thumb_Missing"
+		}
+	}	
 	MainMenuOverride
 	{
 		"button_x_offset"	"0" //"-285"
